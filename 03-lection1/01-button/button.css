@@ -1,11 +1,12 @@
 /* Стилизация кнопки */
 .button {
-  width: 189px;
   height: 48px;
   border-radius: 8px;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .button:disabled {
@@ -47,4 +48,12 @@
 .button_alternate:hover,
 .button_alternate:active {
   border-color: var(--black);
+}
+
+.button_block {
+  display: block;
+}
+
+.button_full-width {
+  width: 100%;
 }
