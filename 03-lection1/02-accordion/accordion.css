@@ -1,8 +1,4 @@
 /* Стилизация аккордеона */
-.accordion {
-  width: 730px;
-}
-
 .accordion * {
   font-family: 'Inter', sans-serif;
 }
@@ -27,6 +23,11 @@
   position: relative;
 }
 
+.accordion__title {
+  display: inline-block;
+  margin-right: 100px;
+}
+
 .accordion__summary::-webkit-details-marker {
   display: none;
 }
@@ -45,7 +46,7 @@
   right: 0;
 }
 
-.accordion__item .accordion__icon_up {
+.accordion__icon_up {
   display: none;
 }
 
