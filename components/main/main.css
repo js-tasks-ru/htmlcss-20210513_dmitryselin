@@ -1,0 +1,11 @@
+.main__cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  padding: 68px 0 204px;
+}
+
+.main__card {
+  width: calc(33.33% - 30px);
+  margin: 15px;
+}

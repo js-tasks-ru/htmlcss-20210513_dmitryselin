@@ -3,6 +3,10 @@
   border-radius: 8px;
   padding: 16px 24px;
   font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 150px;
 }
 
 .histogram * {
@@ -47,10 +51,6 @@
 
 .histogram__link:hover {
   opacity: 0.75;
-}
-
-.histogram__bottom {
-  margin-top: 39px;
 }
 
 .histogram__bottom {
