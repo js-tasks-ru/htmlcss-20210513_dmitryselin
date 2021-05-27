@@ -1,18 +1,72 @@
 <!DOCTYPE html>
 <!-- Страница с аккордеоном -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./accordion.css">
-    </head>
-    <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
-    </body>
+  <head>
+    <title>Аккордеон</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./accordion.css" />
+  </head>
+  <body>
+    <div class="accordion">
+      <details class="accordion__item">
+        <summary class="accordion__summary">
+          <span class="accordion__title">Accordion item</span>
+          <span class="accordion__icon accordion__icon_up">
+            <img
+              src="../../assets/images/accordion-icon-up.png"
+              alt="Иконка сворачивания аккордеона"
+            />
+          </span>
+          <span class="accordion__icon accordion__icon_down">
+            <img
+              src="../../assets/images/accordion-icon-down.png"
+              alt="Иконка раскрытия аккордеона"
+            />
+          </span>
+        </summary>
+        <p class="accordion__content">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </details>
+      <details class="accordion__item">
+        <summary class="accordion__summary">
+          <span>Accordion item</span>
+          <span class="accordion__icon accordion__icon_up">
+            <img
+              src="../../assets/images/accordion-icon-up.png"
+              alt="Иконка сворачивания аккордеона"
+            />
+          </span>
+          <span class="accordion__icon accordion__icon_down">
+            <img
+              src="../../assets/images/accordion-icon-down.png"
+              alt="Иконка раскрытия аккордеона"
+            />
+          </span>
+        </summary>
+        <p class="accordion__content">Hidden content</p>
+      </details>
+      <details class="accordion__item">
+        <summary class="accordion__summary">
+          <span>Accordion item</span>
+          <span class="accordion__icon accordion__icon_up">
+            <img
+              src="../../assets/images/accordion-icon-up.png"
+              alt="Иконка сворачивания аккордеона"
+            />
+          </span>
+          <span class="accordion__icon accordion__icon_down">
+            <img
+              src="../../assets/images/accordion-icon-down.png"
+              alt="Иконка раскрытия аккордеона"
+            />
+          </span>
+        </summary>
+        <p class="accordion__content">Hidden content</p>
+      </details>
+    </div>
+  </body>
 </html>

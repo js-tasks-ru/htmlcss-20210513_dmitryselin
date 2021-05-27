@@ -1,0 +1,29 @@
+.card {
+  height: 367px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+.card__content {
+  flex: 1;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card__histogram {
+  height: 157px;
+}
+
+.card__title {
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: var(--black);
+}
